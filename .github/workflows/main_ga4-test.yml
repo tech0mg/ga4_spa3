@@ -36,8 +36,6 @@ jobs:
           cp -r .next/static/* deploy/.next/static/
           cp .next/BUILD_ID deploy/.next/
           cp -r public deploy/ || echo "No public folder"
-          cp -r .next/server deploy/.next/ || echo "No .next/server"
-          cp -r .next/*.json deploy/.next/ || echo "No top-level jsons"
 
       - name: Zip artifact for deployment
         run: zip release.zip ./deploy
