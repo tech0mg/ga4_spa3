@@ -58,5 +58,5 @@ jobs:
         with:
           app-name: 'ga4-test'
           slot-name: 'Production'
-          package: .
+          package: ./deploy
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_033E7D03EEF94A43AA333A7DB5859049 }}
