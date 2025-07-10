@@ -1,3 +1,9 @@
+declare global {
+  interface Window {
+    gtag: (...args: any[]) => void;
+  }
+}
+
 export const GA_TRACKING_ID = 'G-R01K8JTE16' // ここにあなたのGA4トラッキングIDを設定してください
 
 // https://developers.google.com/analytics/devguides/collection/gtagjs/pages
