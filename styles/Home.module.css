@@ -33,11 +33,10 @@
   font-size: 1.5rem;
 }
 
-nav {
+.nav {
   margin-top: 3rem;
   font-size: 1.5rem;
 }
-
-nav a {
+.nav a {
   margin: 0 1rem;
 }
